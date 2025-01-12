@@ -25,3 +25,10 @@ jobs:
       - name: Check Default Python Version
         run: |
           python --version
+  
+  default-python-version:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check Default Python Version
+        run: |
+          python --version
